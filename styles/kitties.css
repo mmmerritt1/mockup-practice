@@ -1,8 +1,163 @@
+
+h1 {
+  font-size: 2rem;
+  margin: 0 0.67em;
+}
+
+h2 {
+  font-size: 1.2rem;
+  /*margin: 0 0.67em;*/
+}
+
+h3 {
+  font-size: 1rem;
+  margin: 0 1.3rem;
+}
+
+h4 {
+  font-size: .7rem;
+  text-align: left;
+  margin: 0 .6rem;
+}
+
+h6 {
+  font-size: 1rem;
+  margin: 0 1.4rem;
+  color: lightgray;
+}
+
+.rightjust {
+  margin 1em 0;
+  color: red;
+  text-align: right;
+}
+
 .title {
     color: green;
     text-align: center;
     font-size: 6rem;
     background-color: salmon;
+  }
+
+  .flex-container {
+     display: -webkit-flex;
+     display: flex;
+     width: 700px;
+     height: 600px;
+     background-color: white;
+     margin: 0 auto;
+     flex-wrap: wrap;
+  }
+
+  .flex-item1 {
+     font-style: normal;
+     font-family: arial;
+     background-color: black;
+         background-position: center;
+     text-align: left;
+     width: 700px;
+     height: 100px;
+     /*margin: 0.67 0;*/
+     color: red;
+  }
+
+  .flex-item11 {
+    background-color: black;
+    background-position: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-family: arial;
+    width: 700px;
+    height: 80px;
+    color: white;
+    }
+
+  .flex-item2 {
+     font-style: normal;
+     font-family: arial;
+     font-size: 1.2rem;
+     background-color: lightgray;
+         background-position: center;
+     text-align: center;
+     width: 700px;
+     height: 70px;
+     /*margin: 1px;*/
+     color: purple;
+  }
+
+  .flex-item3 {
+    font-style: normal;
+    color: black;
+    font-family: arial;
+    background-color: white;
+    width: 430px;
+    height: 440px;
+    margin: 0;
+  }
+
+  .fontstychg {
+    font-style: italic;
+    margin: 0 1rem;
+  }
+
+  .flex-item4 {
+
+     border: 1px solid black;
+     font-style: normal;
+     font-family: arial;
+     background-color: white;
+     text-align: center;
+     width: 238px;
+     height: 438px;
+     margin: .5rem;
+  }
+
+  .fontchr {
+    margin: 0 1rem;
+  }
+
+  .flex-item5 {
+     font-style: normal;
+     font-family: arial;
+     margin: 0 0.4em;
+     background-color: black;
+     color: white;
+     width: 700px;
+     height: 150px;
+  }
+
+  .flex-item6 {
+
+     border: 1px solid black;
+     font-style: normal;
+     font-family: arial;
+     background-color: white;
+     text-align: center;
+     width: 325px;
+     height: 400px;
+     margin: .5rem;
+  }
+
+  .flex-item7 {
+
+     border: 1px solid black;
+     font-style: normal;
+     font-family: arial;
+     background-color: white;
+     text-align: center;
+     width: 325px;
+     height: 600px;
+     margin: .5rem;
+  }
+
+  .footerblock {
+    font-style: normal;
+    font-family: arial;
+    background-color: black;
+    background-position: center;
+    color: white;
+    width: 90%;
+    margin: 0 1rem;
   }
 
   .sections:hover {
@@ -16,14 +171,14 @@
 
   .centertext {
     text-align: center;
-    color: blue;
+    color: purple;
     font-size: 1rem
   }
 
   .leadin {
     background-color: yellow;
     text-align: center;
-    color: blue;
+    color: purple;
     font-size: 2rem
   }
 
@@ -35,33 +190,33 @@
   }
 
   .listlinks {
-    background-color: gray;
+    background-color: lightgray;
+    background-position: center;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1rem;
     font-style: normal;
     color: purple;
-    width: 100%;
+    width: 90%;
   }
 
   .headerblock {
     background-color: black;
-    font-size: 2rem;
-    font-style: normal;
-    color: white;
-    width: 100%;
-  }
-  .footerblock {
-    background-color: black;
+    background-position: center;
     font-size: 1rem;
-    font-style: italic;
+    font-style: normal;
+    font-family: arial;
     color: white;
-    width: 60%;
-  }
+    width: 90%;
+    }
 
   .pictitles {
     background-color: black;
-    font-size: 2rem;
-    font-style: italic;
-    font-weight: bold;
+    font-size: 1rem;
+    font-style: normal;
     color: white;
+  }
+
+  .closing {
+    text-align: center;
+    font-size: 1rem;
   }
